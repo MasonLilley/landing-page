@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
 }
@@ -32,6 +32,17 @@ body {
     align-items: flex-start;
 }
 
+.middleheader {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.middletext {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 500px;
+}
+
 .headerlinks li {
     list-style-type: none;
 }
@@ -47,7 +58,7 @@ body {
     flex: 1;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 36px;
     background-color:#4e6689;
     color: white;
 }
@@ -60,10 +71,13 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    background-color:#7097d3;
+    color: white;
 }
 
 .randominfotitle {
-
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .infoimg {
@@ -79,4 +93,73 @@ body {
 .allinfogroups {
     display: flex;
     gap: 32px;
+    flex: 1;
+}
+
+.quote {
+    display: flex;
+    flex: 1;
+    background-color:#a4c7fc;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 400px;
+}
+
+.quoteauthor {
+    display: flex;
+    align-self: flex-end;
+    padding-right: 500px;
+}
+
+.calltoaction {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color:#3882F6;
+    color: white;
+}
+
+.CTAcontainercontainer {
+    display: flex;
+    flex-direction: row;
+    background-color:aqua;
+    padding: 50px 100px;
+    border-radius: 10px;
+    gap: 200px;
+}
+
+.CTAheader {
+
+}
+
+.CTAdesc {
+
+}
+
+.CTAbutton {
+    align-self: center;
+    color: #3882F6;
+    height: 36px;
+    width: 100px;
+    border-radius: 36px;
+}
+
+.footer {
+    display: flex;
+    flex: 0.1;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 36px;
+    background-color: #1F2937;
+    color: white;
 }
